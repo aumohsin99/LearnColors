@@ -7,7 +7,7 @@
     tools:context=".PinkPage">
 
     <ImageView
-        android:id="@+id/pinkheading"
+        android:id="@+id/img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/pinkimg"
@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/pinkheading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
@@ -23,5 +23,5 @@
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/pinkheading" />
+        app:layout_constraintTop_toTopOf="@+id/img" />
 </androidx.constraintlayout.widget.ConstraintLayout>
