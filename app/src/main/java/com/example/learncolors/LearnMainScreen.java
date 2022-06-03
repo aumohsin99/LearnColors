@@ -31,38 +31,29 @@ public class LearnMainScreen extends AppCompatActivity implements View.OnClickLi
         Button summarybutton = (Button) findViewById(R.id.summarybutton);
 
         redbutton.setOnClickListener(this);
+        bluebutton.setOnClickListener(this);
+        orangebutton.setOnClickListener(this);
+        blackbutton.setOnClickListener(this);
+        brownbutton.setOnClickListener(this);
+        graybutton.setOnClickListener(this);
+        greenbutton.setOnClickListener(this);
+        purplebutton.setOnClickListener(this);
+        pinkbutton.setOnClickListener(this);
+        whitebutton.setOnClickListener(this);
+        yellowbutton.setOnClickListener(this);
+
         summarybutton.setOnClickListener(this);
-
-
-        //Button button1 = (Button) findViewById(R.id.learnbtn);
     }
 
     public void onClick(View view)
     {
         switch (view.getId()) {
             case R.id.redbutton:
-//                String nextpagetitle = "Red Page";
-//                intent.putExtra("message", nextpagetitle);
-//                Intent intent1 = new Intent(this, RedPage.class, nextpagetitle);
-//                intenttest = new Intent(Intent.);
-//                startActivity(intent1);
-
-                  Intent intent = new Intent(this, RedPage.class);
-               // startActivity(intent);
-              //  String message = view.getText().toString();
-               // intent.putExtra("ETM", message);
-                  String staticString = "Hello intent exported";
-                  intent.putExtra("SS", staticString);
-              //  intent.putExtra(n“abc", “It is another text”);
-                  startActivity(intent);
-
-                  break;
-
-//            case R.id.buttonCallingIntent:
-//                Uri uri = Uri.parse("tel:+923001234567");
-//                intent = new Intent(Intent.ACTION_DIAL, uri);
-//                startActivity(intent);
-//                break;
+                Intent intent1 = new Intent(this, RedPage.class);
+                String message1 = "Red Page";
+                intent1.putExtra("message", message1);
+                startActivity(intent1);
+                break;
 
             // Todo Toasts to be added for new pages
 
@@ -71,60 +62,78 @@ public class LearnMainScreen extends AppCompatActivity implements View.OnClickLi
 
             case R.id.bluebutton:
                 Intent intent2 = new Intent(this, BluePage.class);
+                String message2 = "Blue Page";
+                intent2.putExtra("message", message2);
                 startActivity(intent2);
                 break;
 
             case R.id.orangebutton:
                 Intent intent3 = new Intent(this, OrangePage.class);
+                String message3 = "Orange Page";
+                intent3.putExtra("message", message3);
                 startActivity(intent3);
                 break;
 
             case R.id.blackbutton:
                 Intent intent4 = new Intent(this, BlackPage.class);
+                String message4 = "Black Page";
+                intent4.putExtra("message", message4);
                 startActivity(intent4);
                 break;
 
             case R.id.brownbutton:
                 Intent intent5 = new Intent(this, BrownPage.class);
+                String message5 = "Brown Page";
+                intent5.putExtra("message", message5);
                 startActivity(intent5);
                 break;
 
             case R.id.graybutton:
                 Intent intent6 = new Intent(this, GrayPage.class);
+                String message6 = "Gray Page";
+                intent6.putExtra("message", message6);
                 startActivity(intent6);
                 break;
 
             case R.id.greenbutton:
                 Intent intent7 = new Intent(this, GreenPage.class);
+                String message7 = "Green Page";
+                intent7.putExtra("message", message7);
                 startActivity(intent7);
                 break;
 
             case R.id.purplebutton:
                 Intent intent8 = new Intent(this, PurplePage.class);
+                String message8 = "Purple Page";
+                intent8.putExtra("message", message8);
                 startActivity(intent8);
                 break;
 
             case R.id.pinkbutton:
                 Intent intent9 = new Intent(this, PinkPage.class);
+                String message9 = "Pink Page";
+                intent9.putExtra("message", message9);
                 startActivity(intent9);
                 break;
 
             case R.id.whitebutton:
                 Intent intent10 = new Intent(this, WhitePage.class);
+                String message10 = "White Page";
+                intent10.putExtra("message", message10);
                 startActivity(intent10);
                 break;
 
             case R.id.yellowbutton:
                 Intent intent11 = new Intent(this, YellowPage.class);
+                String message11 = "Yellow Page";
+                intent11.putExtra("message", message11);
                 startActivity(intent11);
                 break;
 
             case R.id.summarybutton:
                 Intent intent12 = new Intent(this, SummaryPage.class);
-                String message = "Summary Page";
-                //Intent intent = new Intent(activity2.this, activity1.class);
-                intent12.putExtra("message", message);
-                //startActivity(intent);
+                String message12 = "Summary Page";
+                intent12.putExtra("message", message12);
                 startActivity(intent12);
                 break;
 
