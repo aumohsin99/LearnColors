@@ -19,6 +19,4 @@ public class SummaryPage extends AppCompatActivity {
 
     }
 
-//    u = findViewById(R.id.summaryheading);
-//        u.setText("updating " + Current_Value);
 }
