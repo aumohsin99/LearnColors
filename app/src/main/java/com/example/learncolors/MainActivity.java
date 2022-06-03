@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
         Button button1 = (Button) findViewById(R.id.learnbtn);
         Button button2 = (Button) findViewById(R.id.practicebtn);
+       // button1.setOnClickListener(new View.OnClickListener();
+        button1.setOnClickListener(this);
         button1.setOnClickListener((View.OnClickListener) this);
         button2.setOnClickListener((View.OnClickListener) this);
     }
@@ -23,16 +25,22 @@ public class MainActivity extends AppCompatActivity {
     // Todo pta nai yahan kya aana he
     // @Override
     public void onClick(View view) {
-        switch (view.getId()){
+        switch (view.getId()) {
             case R.id.learnbtn:
                 Intent intent1 = new Intent(this, LearnMainScreen.class);
                 startActivity(intent1);
                 break;
             case R.id.practicebtn:
-                Intent intent2 = new Intent(this, AnotherActivity.class);
-                startActivity(intent2);
+              //  Intent intent2 = new Intent(this, AnotherActivity.class);
+               // startActivity(intent2);
                 break;
             default:
                 break;
         }
+    }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+        super.onPointerCaptureChanged(hasCapture);
+    }
 }
