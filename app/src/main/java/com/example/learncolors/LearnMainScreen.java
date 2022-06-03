@@ -8,8 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class LearnMainScreen extends AppCompatActivity
-{
+public class LearnMainScreen extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -30,6 +29,10 @@ public class LearnMainScreen extends AppCompatActivity
         Button yellowbutton = (Button) findViewById(R.id.yellowbutton);
 
         Button summarybutton = (Button) findViewById(R.id.summarybutton);
+
+        redbutton.setOnClickListener(this);
+        summarybutton.setOnClickListener(this);
+
 
         //Button button1 = (Button) findViewById(R.id.learnbtn);
     }
@@ -60,6 +63,10 @@ public class LearnMainScreen extends AppCompatActivity
 //                intent = new Intent(Intent.ACTION_DIAL, uri);
 //                startActivity(intent);
 //                break;
+
+            // Todo Toasts to be added for new pages
+
+            // todo messages to be passed using intents
 
 
             case R.id.bluebutton:
@@ -114,11 +121,20 @@ public class LearnMainScreen extends AppCompatActivity
 
             case R.id.summarybutton:
                 Intent intent12 = new Intent(this, SummaryPage.class);
+                String message = "Summary Page";
+                //Intent intent = new Intent(activity2.this, activity1.class);
+                intent12.putExtra("message", message);
+                //startActivity(intent);
                 startActivity(intent12);
                 break;
 
             default:
                 break;
         }
+    }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+        super.onPointerCaptureChanged(hasCapture);
     }
 }
