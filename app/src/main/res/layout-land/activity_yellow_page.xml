@@ -4,23 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BlackPage">
+    tools:context=".YellowPage">
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="733dp"
-        android:layout_height="414dp"
-        app:srcCompat="@drawable/blackimg"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="-4dp" />
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/yellowimg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
-        android:id="@+id/blackheading"
+        android:id="@+id/yellowheading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:textColor="#000000"
+        android:textColor="#FFC107"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="-3dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,8 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_black_page.xml" value="0.15" />
+        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_blue_page.xml" value="0.1328125" />
+        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_brown_page.xml" value="0.1328125" />
+        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_gray_page.xml" value="0.1328125" />
+        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_green_page.xml" value="0.1328125" />
         <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_learn_main_screen.xml" value="0.2" />
         <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_main.xml" value="0.18" />
+        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_orange_page.xml" value="0.1328125" />
+        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_pink_page.xml" value="0.1328125" />
+        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_purple_page.xml" value="0.1328125" />
+        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_red_page.xml" value="0.1328125" />
+        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_summary_page.xml" value="0.1328125" />
+        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_white_page.xml" value="0.1328125" />
+        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_yellow_page.xml" value="0.1328125" />
         <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.15" />
         <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_black_page.xml" value="0.16417272338606242" />
         <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_blue_page.xml" value="0.16417272338606242" />
