@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
       //  button2.setOnClickListener((View.OnClickListener) this);
     }
 
-    // pta nai yahan kya aana he
+    // todo add toasts here for all buttons
+
     // @Override
     public void onClick(View view)
     {

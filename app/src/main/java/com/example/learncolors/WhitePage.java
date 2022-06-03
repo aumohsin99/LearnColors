@@ -12,7 +12,6 @@ public class WhitePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_white_page);
 
-
         Bundle bundle = getIntent().getExtras();
         String message = bundle.getString("message");
         TextView head = findViewById(R.id.whiteheading);
