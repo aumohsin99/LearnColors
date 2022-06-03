@@ -6,4 +6,84 @@
     android:layout_height="match_parent"
     tools:context=".LearnMainScreen">
 
+    <TextView
+        android:id="@+id/learnscreenheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Let's learn Colors"
+        android:textColor="#C12626"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="113dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/redbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="fill"
+                android:text="Red" />
+
+            <Button
+                android:id="@+id/bluebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="fill"
+                android:text="Blue" />
+
+            <Button
+                android:id="@+id/orangebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="fill"
+                android:text="Orange" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/blackbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black" />
+
+            <Button
+                android:id="@+id/brownbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brown" />
+
+            <Button
+                android:id="@+id/graybutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gray" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
