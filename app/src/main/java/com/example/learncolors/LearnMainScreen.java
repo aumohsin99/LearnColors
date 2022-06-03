@@ -57,6 +57,9 @@ public class LearnMainScreen extends AppCompatActivity implements View.OnClickLi
 
             // Todo Toasts to be added for new pages
 
+            // todo lesson/page numbers to be added for all modules
+
+
             case R.id.bluebutton:
                 Intent intent2 = new Intent(this, BluePage.class);
                 String message2 = "Blue Color";
