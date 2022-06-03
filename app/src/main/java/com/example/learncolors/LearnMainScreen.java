@@ -59,6 +59,12 @@ public class LearnMainScreen extends AppCompatActivity implements View.OnClickLi
 
             // todo lesson/page numbers to be added for all modules
 
+            // todo customized list views to be added
+
+            // todo practice test/quiz to be added
+
+            // todo scroll views to be added
+
 
             case R.id.bluebutton:
                 Intent intent2 = new Intent(this, BluePage.class);
