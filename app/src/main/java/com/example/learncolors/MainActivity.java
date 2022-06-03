@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     // Todo pta nai yahan kya aana he
     // @Override
-    public void onClick(View view) {
+    public void onClick(View view)
+    {
         switch (view.getId()) {
             case R.id.learnbtn:
                 Intent intent1 = new Intent(this, LearnMainScreen.class);
