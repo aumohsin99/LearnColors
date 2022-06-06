@@ -4,6 +4,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,9 +12,11 @@ import android.widget.TextView;
 import java.lang.Math;
 import java.util.Map;
 
-public class PracticeMainScreen extends AppCompatActivity implements View.OnClickListener {
+public class PracticeMainScreen extends AppCompatActivity implements View.OnClickListener
+{
 
-    public int randomgenerator(int min, int max) {
+    public int randomgenerator(int min, int max)
+    {
         int index = (int) (Math.random() * (max - min + 1) + min);
         return index;
     }
@@ -64,10 +67,14 @@ public class PracticeMainScreen extends AppCompatActivity implements View.OnClic
     // String[] colorsarray = {"Red", "Green", "Yellow", "Black", "Blue", "Brown", "Gray", "Orange", "Pink", "Purple", "White" };
 
    // opt1button =
-  Button  colorofbutton = opt1button.setBackgroundColor();
-
-    if opt1button.
-    String hell = "bye";
+//    opt1button.setBackgroundColor(Android.Graphics.Color.parseColor("#738b28"));
+//
+//    opt1button.set
+//  opt1button.setBakc(Color.parseColor("#97a0ad"));
+//
+//
+//            if opt1button.
+//    String hell = "bye";
 
 
     @Override
