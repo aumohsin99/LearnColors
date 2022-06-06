@@ -110,5 +110,9 @@ public class PracticeMainScreen extends AppCompatActivity implements View.OnClic
         }
     }
 
+    public void quiztry1(String[] colorsarray[index], )
+    {
+
+    }
 
 }
